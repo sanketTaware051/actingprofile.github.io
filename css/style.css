@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+
+*{
+    padding: 1px;
+    margin: 0px;
+    background-color: black;
+    color: #ffbfbf;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+/* DEFAULTS */
+h1{
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+/* NAVBAR STYLING */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar ul li{
+   list-style: none;
+   margin: 20px;
+   font-size: 1.2rem;
+}
+.navbar ul li a{
+   text-decoration: none;
+   
+   color: tomato;
+}
+/* NAVBAR ENDS */
+
+ /* PERSONAL INFORMATON STYLING */
+ .dimage li img{
+    height: 180px;
+    margin: 8px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.dimage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dimage li{
+    list-style: none;   
+ }
+ .personalinfo{
+    text-align: -webkit-center;
+ }
+ .personalinfo span{
+    color: white;
+    text-decoration: underline;
+ }
+ /* PERSONAL INFORMATON STYLING ENDS */
+
+/* TITLE DESIGN */
+.title h1{
+    color: #9165a5;
+    text-decoration: none;
+}
+p{
+    font-size: 2.1vh;
+}
+
+/* POTRAITS STYLING */
+.pimage li img{
+    display: flex;
+    height: 180px;
+    margin: 8px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.pimage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pimage li{
+    list-style: none;   
+ }
+ /* POTRAITS STYLING ENDS */
+
+/* BLACK AND WHITE STYLING */
+.bwimage li img{
+    height: 180px;
+    margin: 8px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.bwimage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bwimage li{
+    list-style: none;   
+ }
+/* CLOSUP SHOTS STYLING */
+.cuimage li img{
+    height: 180px;
+    margin: 8px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.cuimage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cuimage li{
+    list-style: none;   
+ }
+ /* CLOSUP SHOTS STYLING ENDS */
+
+/* EXPRESSIONS STYLING */ /* THIS IS ALSO USED FOR MORE PIC SECTION */
+.eimage li img{
+    height: 180px;
+    margin: 8px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.eimage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.eimage li{
+    list-style: none;   
+ }
+ /* EXPRESSIONS STYLING ENDS */
+
+/* NATURAL SHOTS STYLING */
+.nimage li img{
+    height: 180px;
+    margin: 8px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.nimage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nimage li{
+    list-style: none;   
+ }
+ /* NATURAL SHOTS STYLING ENDS */
+
+/* EXTRA PHOTOS STYLING IN EXPESION SECTION */
